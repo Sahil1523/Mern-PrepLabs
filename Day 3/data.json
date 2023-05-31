@@ -27,13 +27,13 @@
   }, 
   {
      "image" : "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Godzilla_vs._Kong.png/220px-Godzilla_vs._Kong.png",
-     "title" : "Godzilla",
-     "rating" : 6
+     "title" : "Godzilla",                                                                                                                                                                      
+     "rating" : 6                                                                                                                                                
   },
   {
-     "image" : "https://upload.wikimedia.org/wikipedia/en/7/74/Ready_Player_One_%28film%29.png",
-     "title" : "Ready player One",
+     "image" : "https://upload.wikimedia.org/wikipedia/en/7/74/Ready_Player_One_%28film%29.png",                                                                                                
+     "title" : "Ready player One",                                                                                                                                                           
      "rating" : 6.5
-  },
+  }
  ]
 }
