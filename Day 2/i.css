@@ -1,0 +1,15 @@
+.center {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    text-align: center;
+    right: 40%;
+    font-family: cursive;
+  }
+  
+  img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    height: auto; 
+  }

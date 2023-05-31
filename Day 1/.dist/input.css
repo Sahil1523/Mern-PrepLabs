@@ -1,0 +1,39 @@
+.navbar{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+.intern{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #2196f3;
+    padding: 10px;
+    grid-gap: 3px;
+}
+
+.items{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,26 @@
+#showmovie{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#show-mov img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid red;
+}
+*{
+    padding: 10px;
+}
+
+#head{
+    position: sticky;
+    top: 0;
+    background-color: goldenrod;
+    text-align: center;
+}
+

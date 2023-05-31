@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.sticky {
+  position: fixed;
+  position: sticky; 
+  top: 0;
+  background-color: lightcoral;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+div.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: cyan;
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    height: auto;}
+
+.left>li{
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  margin: 10px;
+}
+.right>li{
+  display: flex;
+  float: right;
+  justify-content: space-around;
+  margin: 10px;
+}
+h1{
+  text-align: center;
+}
+.container{
+      margin: auto;
+       width: 50%;
+       text-align: center;
+}
+#more {display: none;}
+.myBtnx{background-color: black;}
+
+p::first-letter{
+  text-transform: capitalize;
+}
