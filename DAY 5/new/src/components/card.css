@@ -1,0 +1,19 @@
+h1{
+    color: black;
+    text-align: center;
+}
+img{
+    height: 300px;
+
+}
+.card{
+    border: 2px solid black;
+    width: 400px;
+    margin-left: 700px;
+    background-color: lightgray;
+}
+.container{
+   width: 300px;
+   margin-left: 50px;
+
+}
