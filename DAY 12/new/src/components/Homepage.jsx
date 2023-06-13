@@ -1,9 +1,10 @@
 
 import '../App.css';
 import { useContext, useEffect, useState } from 'react';
-import { Card } from "./Card";
-import { Navbar } from './Navbar';
-import SearchContext from './searchContext';
+import React from 'react';
+import Card from "./Card";
+import { Navbar } from "./Navbar";
+import SearchContext from "../searchContext";
 function Homepage() {
   const [arr,setArr]=useState([]);
   const [search]=useContext(SearchContext);

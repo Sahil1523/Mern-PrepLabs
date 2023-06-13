@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Signin from "./pages/signin/signin";
 import Signup from "./pages/signup/signup";
-
+import Homepage from "./components/Homepage";
+import {SearchProvider} from "./searchContext";
 
 function AllRoutes(){
     return(
@@ -14,10 +15,12 @@ function AllRoutes(){
               </SearchProvider>
             }
             />
-            <Route path="/" element={<HomePage />} />
+
             <Route path="/signin" element={<Signin />} />
             <Route path="/signup" element={<Signup />} />
  
         </Routes>
     )
 }
+
+export default AllRoutes;

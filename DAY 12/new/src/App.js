@@ -1,14 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import { SearchProvider } from './components/searchContext';
-import Homepage from './components/Homepage'
-import 
+import AllRoutes from "./AllRoutes";
 function App() {
-  return (
-    <SearchProvider>
-      <Homepage/>
-    </SearchProvider>
-  );
+  return <AllRoutes />
 }
 
 export default App;

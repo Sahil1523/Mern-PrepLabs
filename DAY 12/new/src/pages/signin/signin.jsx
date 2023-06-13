@@ -1,6 +1,6 @@
 import React from "react";
 
-funtion Signin(){
+function Signin(){
     return(
         <div>
             <input type="text" placeholder="Enter Email" />

@@ -1,7 +1,6 @@
 import React from "react";
 
-
-funtion Signup(){
+function Signin(){
     return(
         <div>
             <input type="text" placeholder="Enter Email" />
@@ -11,4 +10,4 @@ funtion Signup(){
     )
 }
 
-export default Signup;
+export default Signin;
