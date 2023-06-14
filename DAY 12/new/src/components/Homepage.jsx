@@ -2,7 +2,7 @@
 import '../App.css';
 import { useContext, useEffect, useState } from 'react';
 import React from 'react';
-import Card from "./Card";
+import Card from "./components/Card";
 import { Navbar } from "./Navbar";
 import SearchContext from "../searchContext";
 function Homepage() {
@@ -33,6 +33,18 @@ function Homepage() {
   }
   console.log(pageArr);
 
+
+  /* const [count, setCount] = useState(0);
+  useEffect(() => {
+    const idvar = setInterval(() =>{
+       console.log();
+       setCount((prev) = prev + 1);
+
+    })
+  })
+ */
+
+  
   const getData =async()=>{
     await fetch(`https://jsonplaceholder.typicode.com/posts`,{
       method:"GET"
